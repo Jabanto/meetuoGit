@@ -1,0 +1,32 @@
+# Voraussetzungen
+* .d
+
+# Kompilierte Objektdateien
+* .slo
+* .lo
+* .o
+* .obj
+
+# Vorkompilierte Header
+* .gch
+* .pch
+
+# Kompilierte dynamische Bibliotheken
+* .so
+* .dylib
+* .dll
+
+# Fortran-Moduldateien
+* .mod
+* .smod
+
+# Kompilierte statische Bibliotheken
+* .lai
+* .la
+* .a
+* .lib
+
+# Ausführbare Dateien
+* .exe
+* .out
+* .app
