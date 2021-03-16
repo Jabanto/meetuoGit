@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SBI">
+      <UniqueIdentifier>{fb6e417a-f02d-4872-9ff3-5874b450da3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LM">
+      <UniqueIdentifier>{d045fb43-31b6-4163-8766-43b48c3d4cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MFC">
+      <UniqueIdentifier>{6fb77b33-7a5a-495a-b8aa-c1e3ec1cdb71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LM">
+      <UniqueIdentifier>{a8f81c92-0116-47ac-aecb-d492e4419626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SBI">
+      <UniqueIdentifier>{3c119ff6-cf75-4be5-b8ed-5114e1e6986a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MFC">
+      <UniqueIdentifier>{390fde98-b3b7-40fb-bcb9-24a0823fa2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SPS">
+      <UniqueIdentifier>{8dd96d24-7422-41a4-b7f9-9548a8cb72aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SPS">
+      <UniqueIdentifier>{5e4f938e-fc17-4ae3-baff-96a47ac17a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VOTS">
+      <UniqueIdentifier>{787724b3-f63d-405f-a211-d4462ca91066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VOTS">
+      <UniqueIdentifier>{95faf037-8aee-43e7-a505-ae46e3342079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tappapiniversal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tapp_tele.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="abl_typ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tappap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kset_dce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_dce.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_error.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_if.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="mfci.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="mfci_typ.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="lm_dce.h">
+      <Filter>Header Files\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="lm_def.h">
+      <Filter>Header Files\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="lm_if.h">
+      <Filter>Header Files\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="SBI_dce.h">
+      <Filter>Header Files\SBI</Filter>
+    </ClInclude>
+    <ClInclude Include="sbi_if.h">
+      <Filter>Header Files\SBI</Filter>
+    </ClInclude>
+    <ClInclude Include="sbi_os.h">
+      <Filter>Header Files\SBI</Filter>
+    </ClInclude>
+    <ClInclude Include="sbi_osid.h">
+      <Filter>Header Files\SBI</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_classes.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="mfc_def.h">
+      <Filter>Header Files\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="sps_if.h">
+      <Filter>Header Files\SPS</Filter>
+    </ClInclude>
+    <ClInclude Include="vots_dce.h">
+      <Filter>Header Files\VOTS</Filter>
+    </ClInclude>
+    <ClInclude Include="vots_if.h">
+      <Filter>Header Files\VOTS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mensetBSW.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbi_if.cpp">
+      <Filter>Source Files\SBI</Filter>
+    </ClCompile>
+    <ClCompile Include="sbi_os.cpp">
+      <Filter>Source Files\SBI</Filter>
+    </ClCompile>
+    <ClCompile Include="sbi_osid.cpp">
+      <Filter>Source Files\SBI</Filter>
+    </ClCompile>
+    <ClCompile Include="tappapiniversal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SBI_dce.cpp">
+      <Filter>Source Files\SBI</Filter>
+    </ClCompile>
+    <ClCompile Include="tapp_tele.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="abl_typ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tappap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_dce.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_if.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="mfci.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="kset_dce.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mfci_typ.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="lm_dce.cpp">
+      <Filter>Source Files\LM</Filter>
+    </ClCompile>
+    <ClCompile Include="lm_def.cpp">
+      <Filter>Source Files\LM</Filter>
+    </ClCompile>
+    <ClCompile Include="lm_if.cpp">
+      <Filter>Source Files\LM</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_error.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_classes.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="mfc_def.cpp">
+      <Filter>Source Files\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="sps_if.cpp">
+      <Filter>Source Files\SPS</Filter>
+    </ClCompile>
+    <ClCompile Include="vots_dce.cpp">
+      <Filter>Source Files\VOTS</Filter>
+    </ClCompile>
+    <ClCompile Include="vots_if.cpp">
+      <Filter>Source Files\VOTS</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
